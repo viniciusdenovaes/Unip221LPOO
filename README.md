@@ -26,3 +26,8 @@ Todos os dados do programa são persistentes e guardados em arquivos no forma cs
 A classe [Dao](programa_funcionario/src/model/dao/Dao.java) faz o trabalho de recuperar e salvar as informaçõese arquivos csv.
 
 A classe [ViewTerminal](programa_funcionario/src/view/ViewTerminal.java) é responsável por interagir com o usuário, recebendo e mostrando informações.
+
+A classe [Controller](programa_funcionario/src/controller/Controller.java) é a que faz a interação entre o programa (que salva informações em um arquivo) e o View (que permite ao usuário se cominucar com o programa)
+
+As entidades trabalhadas estão representadas em [Funcionario](programa_funcionario/src/entidade/Funcionario.java) e [Departamento](programa_funcionario/src/entidade/Departamento.java). 
+Os objetos destas classes, e suas relações são armazenadas, de forma estruturada em [Cadastro](programa_funcionario/src/entidade/Cadastro.java).
