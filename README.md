@@ -23,4 +23,4 @@ Todos os dados do programa são persistentes e guardados em arquivos no forma cs
 - departamentos.csv: uma coluna para o nome e uma para a cidade
 - funcionarios_departamentos.csv: uma tabela de relação entre funcionarios e departamentos, cada linha representa uma relação contendo o id de um funcionário e nome e cidade de um departamento.
 
-A classe (Dao)[programa_funcionario/src/model/dao/Dao.java] faz o trabalho de recuperar e salvar as informações.
+A classe [Dao](programa_funcionario/src/model/dao/Dao.java) faz o trabalho de recuperar e salvar as informações.
