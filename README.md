@@ -13,7 +13,11 @@ Este programa trata duas entidades e o relacionamento entre elas.
 - Departamento
   - Tem um Nome;
   - e uma Cidade
+  - cada departamento é definido unicamente por seu nome e cidade
 - Cadastro
   - um Funcionario pode trabalhar em zero ou mais departamentos
   - Um Departamento pode ter zero ou mais funcionários
 
+Todos os dados do programa são persistentes e guardados em arquivos no forma csv:
+- funcionarios.csv: uma coluna para o id e uma para o nome
+- departamentos.csv: uma coluna para o nome e uma para a cidade
